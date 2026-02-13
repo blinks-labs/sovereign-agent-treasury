@@ -1,0 +1,27 @@
+# Secret files - NEVER commit these!
+.env
+.env.*
+!.env.example
+*.key
+*.secret
+
+# API credentials
+hackathon-credentials.env
+*credentials*
+*token*
+*apikey*
+
+# Wallet files
+*.wallet
+*.keystore
+
+# Logs that might contain sensitive data
+*.log
+logs/
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
