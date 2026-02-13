@@ -1,0 +1,20 @@
+{
+  "name": "sovereign-agent-treasury",
+  "version": "1.0.0",
+  "description": "The first fully self-governing AI agent economy that manages its own treasury completely autonomously.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/test.js", 
+    "test-simple": "node src/test-simple.js",
+    "setup-openrouter": "node src/setup-openrouter.js"
+  },
+  "keywords": ["ai", "defi", "treasury", "autonomous", "solana", "hackathon"],
+  "author": "ClawDuck & Blinks Labs",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1"
+  }
+}
